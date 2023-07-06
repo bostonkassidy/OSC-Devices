@@ -5,8 +5,8 @@
 #include <OSCBundle.h>
 #include <OSCData.h>
 
-char ssid[] = "BCD-Primary-24";                 // your network SSID (name)
-char pass[] = "B3hindCl0s3dD00rs";              // your network password  B3hindCl0s3dD00rs
+char ssid[] = "****";                 // your network SSID (name)
+char pass[] = "****";              // your network password  B3hindCl0s3dD00rs
 
 WiFiUDP Udp;  // A UDP instance to let us send and receive packets over UDP
 
