@@ -87,6 +87,9 @@ void setup() {
     Serial.print("Connecting to ");
     Serial.println(ssid);
     WiFi.begin(ssid, pass);
+  
+    WiFi.setAutoReconnect(true);
+    WiFi.persistent(true);
 
     while (WiFi.status() != WL_CONNECTED) {
         delay(500);
